@@ -1,4 +1,4 @@
-# Regex-Testing
+# Location Testing from list of Keywords
 
 This is just a quick test of trying to put an `awk` script together to help out another research team. 
 
@@ -35,8 +35,9 @@ joe schmo co-op powell river bc $4444
 ## Results
 
 Results are OK. The big limitation is:
-(a) Needs to be a user-generated list..
-(b) Only finds first instance. If it is the Slave Lake Community Area, it will only find the first Slave Lake. This is how we get around finding strings like `on` or `bc` in the middle of other strings..
+
+- Needs to be a user-generated list..  
+- Only finds first instance. If it is the Slave Lake Community Area, it will only find the first Slave Lake. This is how we get around finding strings like `on` or `bc` in the middle of other strings..  
 
 ## Limitations
 
